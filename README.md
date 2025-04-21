@@ -43,8 +43,8 @@ pip install -r requirements.txt
 
 ---
 
-### **3. Directory Structure**
-The repository is organized as follows:
+### **3. Recommended directory Structure**
+Organize the files as follows:
 ```
 NaturalHumanViewForAI/
 ├── src/
