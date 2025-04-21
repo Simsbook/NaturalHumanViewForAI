@@ -34,13 +34,6 @@ python -m venv venv
   ```bash
   source venv/bin/activate
   ```
-
-#### **Install Dependencies**
-Make sure you have all required libraries:
-```bash
-pip install -r requirements.txt
-```
-
 ---
 
 ### **3. Recommended directory Structure**
