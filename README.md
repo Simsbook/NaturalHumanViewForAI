@@ -1,6 +1,6 @@
 # 🌟 Welcome to **NaturalHumanViewForAI**!
 
-Transform your AI's perception by replacing traditional scanner views with a **natural, human-like view**. This project is designed to make AI systems process visual data more efficiently and intuitively, just like the human eye does.
+Transform your AI's perception by replacing traditional scanner views with a **natural, human-like view**. This project is designed to make AI systems process visual data more efficiently and intuitively.
 
 ---
 
@@ -34,25 +34,21 @@ python -m venv venv
   ```bash
   source venv/bin/activate
   ```
+
 ---
 
-### **3. Recommended directory Structure**
-Organize the files as follows:
+### **3. File Structure**
+The repository contains the following files:
+
 ```
 NaturalHumanViewForAI/
-├── src/
-│   ├── main.py                # Main entry point of the application
-│   ├── preprocessing/
-│   │   └── rgb_to_hsv.py      # Converts RGB images to HSV
-│   └── perception/
-│       └── object_recognition.py # Recognizes objects in images
-├── tests/
-│   └── test_rgb_to_hsv.py     # Unit tests for the RGB to HSV module
-├── examples/
-│   └── demo.py                # Demo script showcasing functionality
-├── docs/
-│   └── architecture.md        # Project architecture documentation
-└── README.md                  # Project overview and instructions
+├── README.md                  # Project overview and instructions
+├── architecture.md            # Project architecture documentation
+├── demo.py                    # Demo script showcasing functionality
+├── main.py                    # Main entry point of the application
+├── object_recognition.py      # Recognizes objects in images
+├── rgb_to_hsv.py              # Converts RGB images to HSV
+└── test_rgb_to_hsv.py         # Unit tests for the RGB to HSV module
 ```
 
 ---
@@ -60,12 +56,12 @@ NaturalHumanViewForAI/
 ### **4. Run the Project**
 To process an image:
 ```bash
-python src/main.py --image <path_to_image>
+python main.py --image <path_to_image>
 ```
 
 For example:
 ```bash
-python src/main.py --image examples/sample_images/sample.jpg
+python main.py --image sample_images/sample.jpg
 ```
 
 ---
@@ -87,12 +83,12 @@ pytest
    - Recognizes objects in preprocessed images using AI models.
 
 3. **Demo**:
-   - Includes a sample script (`examples/demo.py`) to showcase its capabilities.
+   - Includes a sample script (`demo.py`) to showcase its capabilities.
 
 ---
 
 ## 💡 Project Architecture
-The project architecture is documented in [docs/architecture.md](docs/architecture.md), detailing how the components work together to deliver a natural view for AI.
+The project architecture is documented in [architecture.md](architecture.md), detailing how the components work together to deliver a natural view for AI.
 
 ---
 
